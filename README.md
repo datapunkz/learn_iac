@@ -1,2 +1,3 @@
-# learn_iac_part01
-Code examples for learn Infrastructure as Code Part01
+# Learn Infrastrucutre as Code
+
+This is the code for the Learn Infrastructure as Code tutorial.
