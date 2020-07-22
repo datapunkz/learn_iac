@@ -73,10 +73,10 @@ jobs:
             export ENDPOINT="$(terraform output endpoint)"
             mkdir -p /tmp/gke/
             echo 'export ENDPOINT='${ENDPOINT} > /tmp/gke/gke-endpoint
-      # - persist_to_workspace:
-      #     root: /tmp/gke
-      #     paths:
-      #       - "*"
+      - persist_to_workspace:
+          root: /tmp/gke
+          paths:
+            - "*"
   gke_destroy_cluster:
     docker:
       - image: ariv3ra/terraform-gcp:latest
