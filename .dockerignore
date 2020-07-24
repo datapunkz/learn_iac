@@ -14,3 +14,5 @@ Dockerfile
 *.tfstate
 *.tfstate.*
 plan.*
+part01/
+part02/
